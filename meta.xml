@@ -1,0 +1,16 @@
+<meta>
+    <script src = "client.lua" type = "client" />
+    <script src = "server.lua" type = "server" />
+    <file src = "files/success.png" type = "file" />
+    <file src = "files/error.png" type = "file" />
+    <file src = "files/warning.png" type = "file" />
+    <file src = "files/info.png" type = "file" />
+    <file src = "files/ban.png" type = "file" />
+    <file src = "files/font.ttf" type = "file" />
+    <file src = "files/sound.mp3" type = "file" />
+
+    <export function = "addInfoBox" type = "client" />
+    <export function = "addInfoBoxS" type = "server" />
+
+    <oop>true</oop>
+</meta>
